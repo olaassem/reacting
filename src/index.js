@@ -1,15 +1,8 @@
-import React, {Component} from 'react'
-import ReactDOM from 'react-dom'
-import './index.css'
+import React, {Component} from 'react';
+import ReactDOM from 'react-dom';
 
-class App extends Component {
-  render() {
-    return (
-      <div className="App">
-        <h1>A Sky Full of Stars.</h1>
-      </div>
-    )
-  }
-}
+import App from './App';
+import './index.css';
+
 
 ReactDOM.render(<App />, document.getElementById('root'))
